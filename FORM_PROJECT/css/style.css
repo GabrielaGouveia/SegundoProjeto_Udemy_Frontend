@@ -1,0 +1,144 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5{
+    color: #333;
+}
+
+p,label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+
+}
+
+/*page header*/
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #5dc20b;
+    background-image: url('https://www.revendamais.com.br/blog/wp-content/uploads/2017/05/gerir-um-estoque-de-veiculos.jpg')
+}
+
+.header h3{
+    color: #080808;
+    margin-top: 0;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f30808;
+   
+}
+
+/*form container*/
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/*form header*/
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #434b44;
+    border-bottom: 2px solid #070707;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+
+}
+
+/*form body*/
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+
+}
+
+.required-field{
+    color: #d80835;
+
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+
+}
+
+.optional-list li{
+  list-style: none;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #434b44;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+    border-color: #e40a0a;
+    color: #e40b0b;
+}
+
